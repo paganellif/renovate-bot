@@ -1,8 +1,10 @@
 name: Renovate
 on:
+  workflow_dispatch:
   schedule:
       #@hourly	Run once an hour at the beginning of the hour
     - cron: '0 * * * *'
+
 
 jobs:
   renovate:
