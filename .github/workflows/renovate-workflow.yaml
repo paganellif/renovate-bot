@@ -2,9 +2,9 @@ name: Renovate
 on:
   workflow_dispatch:
   schedule:
-      #@hourly	Run once an hour at the beginning of the hour
-    - cron: '0 * * * *'
-
+      #@hourly	Run once an hour at the beginning of the hour -> 0 * * * *
+      #@daily (or @midnight)	Run once a day at midnight
+    - cron: '0 0 * * *'
 
 jobs:
   renovate:
