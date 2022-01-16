@@ -28,7 +28,8 @@ module.exports = {
     repositories: [
         'paganellif/renovate-bot',
         'paganellif/sodium',
-        'paganellif/pps-project-paganelli-2122'
+        'paganellif/pps-project-paganelli-2122',
+        'paganellif/CV'
     ],
     packageRules: [
         {
