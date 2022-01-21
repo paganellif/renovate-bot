@@ -12,6 +12,7 @@ module.exports = {
     onboarding: false,
     labels: ["renovate"],
     requireConfig: false,
+    includeForks: true,
     automerge: true,
     automergeType: 'pr',
     rebaseWhen: 'auto',
