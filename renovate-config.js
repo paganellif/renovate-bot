@@ -27,6 +27,7 @@ module.exports = {
     platform: 'github',
     repositories: [
         'paganellif/renovate-bot',
+        'paganellif/angular-tracing',
         'paganellif/CV'
     ],
     packageRules: [
