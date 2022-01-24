@@ -52,19 +52,18 @@ module.exports = {
                 "**/docker-compose*.yml"
             ],
             groupName: "container-image",
-            automerge: true
         },
         {
             matchPackagePatterns: ["^typescript"],
-            groupName: "typescript"
+            groupName: "typescript",
         },
         {
             matchPackagePatterns: ["^@angular"],
-            groupName: "angular"
+            groupName: "angular",
         },
         {
             matchPackagePatterns: ["^@nrwl"],
-            groupName: "nrwl"
+            groupName: "nrwl",
         }, 
     ],
 };
