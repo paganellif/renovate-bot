@@ -16,8 +16,8 @@ module.exports = {
     automerge: true,
     automergeType: 'pr',
     rebaseWhen: 'auto',
-    dependencyDashboard: false,
-    dependencyDashboardApproval: false,
+    dependencyDashboard: true,
+    dependencyDashboardApproval: true,
     dependencyDashboardAutoclose: false,
     trustLevel: 'high',
     updateLockFiles: true,
@@ -45,5 +45,26 @@ module.exports = {
             dependencyDashboardApproval: false,
             stabilityDays: 0,
         },
+        {
+            matchPaths: [
+                "**/Dockerfile",
+                "**/.gitlab-ci.yml",
+                "**/docker-compose*.yml"
+            ],
+            groupName: "container-image",
+            automerge: true
+        },
+        {
+            matchPackagePatterns: ["^typescript"],
+            groupName: "typescript"
+        },
+        {
+            matchPackagePatterns: ["^@angular"],
+            groupName: "angular"
+        },
+        {
+            matchPackagePatterns: ["^@nrwl"],
+            groupName: "nrwl"
+        }, 
     ],
 };
