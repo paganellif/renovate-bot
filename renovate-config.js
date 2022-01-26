@@ -16,8 +16,8 @@ module.exports = {
     automerge: true,
     automergeType: 'pr',
     rebaseWhen: 'auto',
-    dependencyDashboard: true,
-    dependencyDashboardApproval: true,
+    dependencyDashboard: false,
+    dependencyDashboardApproval: false,
     dependencyDashboardAutoclose: false,
     trustLevel: 'high',
     updateLockFiles: true,
@@ -47,8 +47,7 @@ module.exports = {
         },
         {
             matchPaths: [
-                "**/Dockerfile",
-                "**/.gitlab-ci.yml",
+                "**/Dockerfile*",
                 "**/docker-compose*.yml"
             ],
             groupName: "container-image",
