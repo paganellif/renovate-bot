@@ -29,6 +29,7 @@ module.exports = {
     repositories: [
         'paganellif/renovate-bot',
         'paganellif/angular-tracing',
+        'paganellif/sodium',
         'paganellif/CV'
     ],
     packageRules: [
