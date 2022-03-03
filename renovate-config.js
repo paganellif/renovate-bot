@@ -30,6 +30,7 @@ module.exports = {
         'paganellif/renovate-bot',
         'paganellif/angular-tracing',
         'paganellif/sodium',
+        'paganellif/gitlab-cli',
         'paganellif/CV'
     ],
     packageRules: [
