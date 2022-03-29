@@ -65,6 +65,10 @@ module.exports = {
         {
             matchPackagePatterns: ["^@nrwl"],
             groupName: "nrwl",
+        },
+        {
+            matchPackagePatterns: ["^@ngrx"],
+            groupName: "ngrx",
         }, 
     ],
 };
