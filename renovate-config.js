@@ -69,6 +69,10 @@ module.exports = {
         {
             matchPackagePatterns: ["^@ngrx"],
             groupName: "ngrx",
+        },
+        {
+            matchPackagePatterns: ["^io.ktor"],
+            groupName: "ktor",
         }, 
     ],
 };
