@@ -31,7 +31,8 @@ module.exports = {
         'paganellif/angular-tracing',
         'paganellif/gitlab-cli',
         'paganellif/sodium',
-        'paganellif/CV'
+        'paganellif/CV',
+        'paganellif/psm-course-paganelli-2122'
     ],
     packageRules: [
         {
