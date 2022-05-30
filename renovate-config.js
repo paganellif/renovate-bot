@@ -32,6 +32,7 @@ module.exports = {
         'paganellif/gitlab-cli',
         'paganellif/sodium',
         'paganellif/CV',
+        'paganellif/tesi-paganelli',
         'paganellif/psm-course-paganelli-2122'
     ],
     packageRules: [
