@@ -33,7 +33,11 @@ module.exports = {
         "paganellif/angular-tracing",
         "paganellif/sodium",
         "paganellif/CV",
-        "paganellif/tesi-paganelli"
+        "paganellif/tesi-paganelli",
+        "paganellif/lss-report-paganelli-2122",
+        "paganellif/lss-report2-paganelli-2122",
+        "paganellif/psm-report-paganelli-2122",
+        "paganellif/psm-report2-paganelli-2122"
     ],
     "packageRules": [
         {
